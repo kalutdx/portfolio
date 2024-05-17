@@ -1,0 +1,12 @@
+:root{
+    --back-color:rgb(36,41,51);
+    --main-color:rgb(236,76,86);
+    --darker:rgba(0,0,0,0.4);
+
+    --border:8px;
+    --border-fuse:4px;
+}
+
+.bordered{
+    border:solid var(--darker);
+}
