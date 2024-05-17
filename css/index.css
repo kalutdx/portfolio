@@ -28,14 +28,14 @@ nav ol{
 nav ol li{
     list-style: none;
 }
-.buttons-element{
+#buttons-element{
     flex-grow:1;
-    border:5px solid blue;
+    border-width: var(--border) var(--borde-fuse) var(--border-fuse) var(--border);
 }
 
-.text-element{
-    flex-grow:7;
-    border:5px solid green;
+#title-element{
+    flex-grow:9;
+    border-width: var(--border) var(--border) var(--border-fuse) var(--border-fuse);
 }
 
 .main-section{
@@ -45,12 +45,12 @@ nav ol li{
 
 #skills-section{
     flex-grow:2;
-    border:5px solid yellow;
+    border-width: var(--border-fuse) var(--border-fuse) var(--border-fuse) var(--border);
 }
 
 #image-section{
     flex-grow:8;
-    border:5px solid orange;
+    border-width: var(--border-fuse) var(--border) var(--border-fuse) var(--border-fuse);
 }
 
 footer{
@@ -58,13 +58,18 @@ footer{
     display:flex;
 }
 
-#navigation-left-button, #navigation-right-button{
+#navigation-left-button{
     flex-grow:1;
-    border:5px solid red;
+    border-width: var(--border-fuse) var(--border-fuse) var(--border) var(--border);
+}
+
+#navigation-right-button{
+    flex-grow:1;
+    border-width: var(--border-fuse) var(--border-fuse) var(--border) var(--border-fuse);
 }
 
 #project-description{
     flex-grow:8;
-    border:5px solid red;
+    border-width: var(--border-fuse) var(--border) var(--border) var(--border-fuse);
 }
 

@@ -3,6 +3,10 @@
     --main-color:rgb(236,76,86);
     --darker:rgba(0,0,0,0.4);
 
-    --border:2px;
-    --border-fuse:1px;
+    --border:8px;
+    --border-fuse:4px;
+}
+
+.bordered{
+    border:solid var(--darker);
 }
