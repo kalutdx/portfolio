@@ -6,7 +6,3 @@
     --border:8px;
     --border-fuse:4px;
 }
-
-.bordered{
-    border:solid var(--darker);
-}
