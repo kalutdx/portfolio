@@ -66,7 +66,7 @@ body{
     position:fixed;
     width:8vw;
     height:100vh;
-    background-color: var(--main-color);
+    background-color: var(--darker);
     display:flex;
     justify-content: center;
     flex-direction: column;
@@ -87,7 +87,7 @@ body{
 }
 
 .menu ul li a{
-    color:var(--back-color);
+    color:var(--text);
     display:block;
     padding:15px 15px;
     text-decoration: none;
