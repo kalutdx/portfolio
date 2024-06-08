@@ -2,19 +2,8 @@
     --back-color:rgb(36,41,51);
     --main-color:rgb(236,76,86);
     --darker:rgba(0,0,0,0.4);
-
-    --border:8px;
-    --border-fuse:4px;
+    --much-darker:rgba(0,0,0,0.7);
 }
 
-@font-face {
-    font-family: Roboto;
-    src: url("../assets/fonts/roboto.ttf");
-}
 
-body{
-    font-family:Roboto;
-    width:100vw;
-    height:100vh;
-}
 
