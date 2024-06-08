@@ -22,17 +22,17 @@ body{
     margin:0;
     padding:0;
     height:100vh;
-    flex-direction: column;
-    justify-content: center;
-    align-items:flex-end;
-    margin-right:40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
+
 
 .hero{
     text-transform: uppercase;
     display:flex;
     flex-direction: column;
-    align-items: flex-end;
     padding:5px;
     color:white;
 }
@@ -52,6 +52,10 @@ body{
 
 .hero h2 .highlight{
     margin-left:14px;
+}
+
+.hero-wrapper img{
+    height:100vh;
 }
 
 /*Menu*/
@@ -131,24 +135,21 @@ body{
     display:flex;
 }
 
-.highlighted-project{
-    background-color: blueviolet;
-    flex-grow:1;
-}
-
 .other-retex{
-    flex-grow:1;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px; 
-    background-color:gold;
+    display: flex;
+    flex-wrap:wrap;
 }
 
-.other-retex a:first-child, .other-retex a:last-child{
-    background-color: brown;
+.other-retex a{
+    width:23vw;
+    height:23vh;
 }
+
+.other-retex a img{
+    width:23vw;
+    height:46vh;
+}
+
 
 /*About*/
 
@@ -198,3 +199,5 @@ body{
     padding:10px;
     margin-right: 100px;
 }
+
+/*Footer*/
