@@ -31,7 +31,6 @@ body{
     flex-direction: column;
     align-items: flex-end;
     padding:5px;
-    margin-left:180px;
 }
 
 .hero *{
@@ -106,7 +105,7 @@ body{
     height:30px;
 }
 
-/*About*/
+/*Projects*/
 
 .retex-wrapper{
     margin:0;
@@ -114,5 +113,32 @@ body{
     width:100vw;
     height:100vh;
     color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
+.retex-grid{
+    width:82vw;
+    height:82vh;
+    display:flex;
+}
+
+.highlighted-project{
+    background-color: blueviolet;
+    flex-grow:1;
+}
+
+.other-retex{
+    flex-grow:1;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px; 
+    background-color:gold;
+}
+
+.other-retex a:first-child, .other-retex a:last-child{
+    background-color: brown;
+}
