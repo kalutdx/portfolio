@@ -3,7 +3,9 @@
     --main-color:rgb(236,76,86);
     --darker:rgba(0,0,0,0.4);
     --much-darker:rgba(0,0,0,0.7);
+    scroll-behavior: smooth;
 }
 
-
-
+.highlight{
+    color:var(--main-color);
+}
