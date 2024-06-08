@@ -8,26 +8,35 @@
     <title>Nils Durieux</title>
 </head>
 <body>
-    <div class="hero-wrapper" id="hero">
+    <div class="menu">
+        <ul>
+            <li><a href="#">Accueil</a></li>
+            <li><a href="#about">À propos</a></li>
+            <li><a href="#skills">Compétences</a></li>
+            <li><a href="#retex">Projets</a></li>
+        </ul>
+        <div class="icon-links-section">
+            <a href="https://github.com/kalutdx" id="github-icon" target="_blank"><img src="assets/icons/github.png" alt="github icon"></a>
+        </div>
+    </div>
+    <div class="hero-wrapper wrapper">
         <div class="hero margin">
             <h2>Je m'appelle</h2>
             <h1 class="highlight">Nils Durieux</h1>
             <h2>et je suis <span class="highlight">Développeur Full Stack</span></h2>
-        </div>
-        <div class="menu">
-            <ul>
-                <li><a href="#">À propos</a></li>
-                <li><a href="#">Compétences</a></li>
-                <li><a href="#retex">Projets</a></li>
-                <li><a href="#">Contacts</a></li>
-            </ul>
-            <div class="icon-links-section">
-                <a href="https://github.com/kalutdx" id="github-icon" target="_blank"><img src="assets/icons/github-mark-white.png" alt="github icon"></a>
-            </div>
+            
         </div>
     </div>
-    <div class="retex-wrapper" id="retex">
-        <h1 class="title margin">Projets</h1>
+    <div class="about-wrapper wrapper">
+        <div class="about-content">
+            <h1 class="about-title">Je suis <span class="highlight">Nils</span></h1>
+            <p>Je baigne dans l'informatique depuis très jeune, et je touche un peu à tout ce qui concerne ce domaine.</p>
+            <a href="mailto:nils.durieux@gmail.com">Me contacter</a>
+        </div>
+        <img src="assets/pictures/me.jpg" id="about">
+    </div>
+    <div class="retex-wrapper wrapper">
+        <h1 class="title" id="retex">Projets</h1>
         <div class="retex-grid">
             <a href="#" class="highlighted-project">wryyy</a>
             <div class="other-retex">
@@ -38,5 +47,6 @@
             </div>
         </div>
     </div>
+    
 </body>
 </html>
