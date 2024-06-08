@@ -4,6 +4,8 @@
     --darker:rgba(0,0,0,0.4);
     --much-darker:rgba(0,0,0,0.7);
 
+    --text:white;
+
     scroll-behavior: smooth;
 }
 
