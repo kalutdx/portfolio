@@ -18,6 +18,8 @@ From Java applications to web projects, everything I'm proud of is, and will be 
 
 It is the first iteration of my portfolio, so expect changes in the coming years !
 
+[Access it here](https://kalutdx.github.io/portfolio/)
+
 ## Upcoming
 The website currently only supports French, with English on the way soon.
 
