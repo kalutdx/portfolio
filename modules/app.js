@@ -5,6 +5,9 @@
      */
 const sleep = (ms) => new Promise(r => setTimeout(r, ms));
 
+/**
+ * Main function.
+ */
 const main = async () => {
     const docTitle = document.title;
     while(true){

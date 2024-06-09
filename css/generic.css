@@ -11,6 +11,8 @@
 }
 
 body{
+    cursor:url('../assets/cursors/cursor.png'), auto;
+
     background-color: var(--back-color);
     width:100vw;
     margin:0;
@@ -18,6 +20,14 @@ body{
     width:100vw;
     font-family:Helvetica, sans-serif;
     overflow-x:hidden;
+    
+}
+
+a:hover{
+    cursor:url('../assets/cursors/pointer.png'), pointer;
+}
+
+.container{
     display:flex;
     flex-direction: column;
     align-items: flex-end;
@@ -115,3 +125,7 @@ body{
 }
 
 /*Cursor*/
+
+.cursor{
+    width:16px;
+}
