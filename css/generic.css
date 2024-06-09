@@ -3,6 +3,7 @@
     --main-color:rgb(236,76,86);
     --darker:rgba(0,0,0,0.4);
     --much-darker:rgba(0,0,0,0.7);
+    --current:rgb(252, 189, 54);
 
     --text:white;
 
@@ -24,6 +25,7 @@ body{
 
 .highlight{
     color:var(--main-color);
+    font-weight:bold;
 }
 
 .title{
@@ -86,6 +88,10 @@ body{
 .menu ul li a:hover{
     transition:0.2s;
     background-color: var(--much-darker);
+}
+
+.menu ul li a.current{
+    color:var(--current);
 }
 
 .menu ul li:first-child{

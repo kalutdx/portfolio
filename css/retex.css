@@ -11,5 +11,52 @@
 
 .retex-wrapper .title{
     margin:0;
-    align-self:flex-end;
+}
+
+.retex-content{
+    width:92vw;
+    display:flex;
+}
+
+.retex-content img{
+    width:46vw;
+}
+
+.right-part{
+    margin:50px;
+    width:46vw;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.lists{
+    flex-grow:1;
+    display:flex;
+    align-items: center;
+}
+
+.specifications,.acquired-skills{
+    flex:1;
+}
+
+.lists div h2{
+    font-size:30px;
+}
+
+.lists ul{
+    list-style: square;
+}
+
+.lists ul li{
+    font-size: 22px;
+}
+
+.retex-desc{
+    border-top:solid;
+    flex-grow:1;
+    display:flex;
+    align-items: center;
+    font-size:30px;
+    text-align: end;
 }

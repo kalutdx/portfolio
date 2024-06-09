@@ -203,6 +203,7 @@
 /*Footer*/
 
 footer{
+    background-color: var(--much-darker);
     color:var(--main-color);
     display:flex;
     width:92vw;
