@@ -1,3 +1,4 @@
+<a name="readme-top"></a>
 <br />
 <div align="center">
   <img src="assets/icons/icon.png" alt="Logo" width="160" height="160">
