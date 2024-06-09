@@ -95,6 +95,7 @@
 }
 
 .about-content a{
+    transition:0.2s;
     color:white;
     font-size:32px;
     font-weight:bold;
@@ -102,6 +103,10 @@
     text-decoration: none;
     background-color: var(--main-color);
     padding:10px;
+}
+
+.about-content a:hover{
+    filter:brightness(70%);
 }
 
 /*Skills*/
