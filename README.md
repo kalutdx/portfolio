@@ -23,6 +23,8 @@ It is the first iteration of my portfolio, so expect changes in the coming years
 ## Upcoming
 The website currently only supports French, with English on the way soon.
 
+Website isn't responsive right now. That is something I will be working on in a later date.
+
 ## Contact
 
 Nils Durieux - nils.durieux@gmail.com
