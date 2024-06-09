@@ -10,8 +10,6 @@
     align-items: center;
 }
 
-
-
 .hero{
     text-transform: uppercase;
     display:flex;
@@ -57,8 +55,6 @@
         opacity:0;
     }
 }
-
-
 
 /*About*/
 
@@ -178,14 +174,23 @@
     display:flex;
 }
 
+.retex-grid a img:hover{
+    transition:0.2s;
+    filter:brightness(75%);
+}
+
+.highlighted-project img{
+    height:92vh;
+}
+
 .other-retex{
     display: flex;
-    flex-wrap:wrap;
 }
 
 .other-retex a{
+    display:block;
     width:23vw;
-    height:23vh;
+    height:46vh;
 }
 
 .other-retex a img{

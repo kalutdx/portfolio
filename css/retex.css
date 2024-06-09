@@ -1,0 +1,15 @@
+.retex-wrapper{
+    color:var(--text);
+    margin:0;
+    padding:0;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    height:100vh;
+    width:92vw;
+}
+
+.retex-wrapper .title{
+    margin:0;
+    align-self:flex-end;
+}
