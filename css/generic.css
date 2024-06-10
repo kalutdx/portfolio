@@ -11,8 +11,6 @@
 }
 
 body{
-    cursor:url('../assets/cursors/cursor.png'), auto;
-
     background-color: var(--back-color);
     width:100vw;
     margin:0;
@@ -21,10 +19,6 @@ body{
     font-family:Helvetica, sans-serif;
     overflow-x:hidden;
     
-}
-
-a:hover{
-    cursor:url('../assets/cursors/pointer.png'), pointer;
 }
 
 .container{
